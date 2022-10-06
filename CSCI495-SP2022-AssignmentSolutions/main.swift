@@ -7,5 +7,19 @@
 
 import Foundation
 
-print("Hello, World!")
+func runLab02() {
+    let obj = Lab02()
+    obj.runSolution()
+}
 
+func runLab03() {
+    let obj = Lab03()
+    obj.runSolution()
+}
+
+func runLab04() {
+    let obj = Lab04()
+    obj.runSolution()
+}
+
+runLab02()
