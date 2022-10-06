@@ -23,3 +23,5 @@ func runLab04() {
 }
 
 runLab02()
+runLab03()
+runLab04()

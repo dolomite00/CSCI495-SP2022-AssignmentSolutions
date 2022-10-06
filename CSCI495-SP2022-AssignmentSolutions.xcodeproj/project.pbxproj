@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DD2AA0C728EEA8B700CCD68B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2AA0C628EEA8B700CCD68B /* main.swift */; };
+		DD2AA0CE28EEA9F700CCD68B /* lab02.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2AA0CD28EEA9F700CCD68B /* lab02.swift */; };
+		DD2AA0D028EEAE3F00CCD68B /* lab03.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2AA0CF28EEAE3F00CCD68B /* lab03.swift */; };
+		DD2AA0D228EEAE4E00CCD68B /* lab04.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2AA0D128EEAE4E00CCD68B /* lab04.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		DD2AA0C328EEA8B700CCD68B /* CSCI495-SP2022-AssignmentSolutions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CSCI495-SP2022-AssignmentSolutions"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2AA0C628EEA8B700CCD68B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DD2AA0CD28EEA9F700CCD68B /* lab02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab02.swift; sourceTree = "<group>"; };
+		DD2AA0CF28EEAE3F00CCD68B /* lab03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab03.swift; sourceTree = "<group>"; };
+		DD2AA0D128EEAE4E00CCD68B /* lab04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab04.swift; sourceTree = "<group>"; };
+		DD2AA0D728EEAFF200CCD68B /* Lab04.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Lab04.pdf; sourceTree = "<group>"; };
+		DD2AA0D828EEB00B00CCD68B /* Lab03.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Lab03.pdf; sourceTree = "<group>"; };
+		DD2AA0D928EEB01500CCD68B /* Lab02.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Lab02.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +67,22 @@
 			isa = PBXGroup;
 			children = (
 				DD2AA0C628EEA8B700CCD68B /* main.swift */,
+				DD2AA0D428EEAF8E00CCD68B /* Labs */,
+				DD2AA0CF28EEAE3F00CCD68B /* lab03.swift */,
+				DD2AA0D128EEAE4E00CCD68B /* lab04.swift */,
+				DD2AA0CD28EEA9F700CCD68B /* lab02.swift */,
 			);
 			path = "CSCI495-SP2022-AssignmentSolutions";
+			sourceTree = "<group>";
+		};
+		DD2AA0D428EEAF8E00CCD68B /* Labs */ = {
+			isa = PBXGroup;
+			children = (
+				DD2AA0D928EEB01500CCD68B /* Lab02.pdf */,
+				DD2AA0D828EEB00B00CCD68B /* Lab03.pdf */,
+				DD2AA0D728EEAFF200CCD68B /* Lab04.pdf */,
+			);
+			path = Labs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD2AA0C728EEA8B700CCD68B /* main.swift in Sources */,
+				DD2AA0D228EEAE4E00CCD68B /* lab04.swift in Sources */,
+				DD2AA0CE28EEA9F700CCD68B /* lab02.swift in Sources */,
+				DD2AA0D028EEAE3F00CCD68B /* lab03.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
